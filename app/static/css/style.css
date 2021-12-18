@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
@@ -387,7 +387,7 @@ DF
         border-image-source: url("../Textures/DarkGold.jpg");
 	border-image-slice: 2%;
 	background-image: url("../Textures/DarkStone.jpg");
-        width: 19.55%;
+        width: 19.68%;
 	
 }
 .demonmain
@@ -527,6 +527,153 @@ a.DemonA:visited {color: #b7410e;}
 	bottom: 0%;
 	text-align: center;
 }
+
+
+
+
+.AFPlace1
+{
+
+}
+.AFPlace2
+{
+
+}
+.AFPlace3
+{
+
+}
+
+.DFPlace1
+{
+
+}
+
+.DFPlace2
+{
+
+}
+
+.DFPlace3
+{
+
+}
+
+
+
+
+
+
+
+.Arating-area {
+	overflow: hidden;
+	width: 55%;
+	left: 10%;
+}
+
+	.Arating-area:not(:checked) > input {
+		display: none;
+	}
+
+	.Arating-area:not(:checked) > label {
+		float: right;
+		width: 5%;
+		padding: 0;
+		cursor: pointer;
+		font-size: 100%;
+		line-height: 150%;
+		color: #FFD700;
+		text-shadow: 6px 6px 2px #9a9a9a, -3px -3px 0px #C0C0C0;
+	}
+
+		.Arating-area:not(:checked) > label:before {
+			content: '★';
+		}
+
+	.Arating-area > input:checked ~ label {
+		color: #EDFF21;
+		text-shadow: 6px 6px 2px #9a9a9a, -3px -3px 0px #C0C0C0;
+	}
+
+	.Arating-area:not(:checked) > label:hover,
+	.Arating-area:not(:checked) > label:hover ~ label {
+		color: #EDFF21;
+	}
+
+	.Arating-area > input:checked + label:hover,
+	.Arating-area > input:checked + label:hover ~ label,
+	.Arating-area > input:checked ~ label:hover,
+	.Arating-area > input:checked ~ label:hover ~ label,
+	.Arating-area > label:hover ~ input:checked ~ label {
+		color: #EDFF21;
+		text-shadow: 6px 6px 2px #9a9a9a, -3px -3px 0px #C0C0C0;
+	}
+
+.Arate-area > label:active {
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+.Drating-area {
+	overflow: hidden;
+	width: 55%;
+	left: 10%;
+	position: relative;
+}
+
+	.Drating-area:not(:checked) > input {
+		display: none;
+	}
+
+	.Drating-area:not(:checked) > label {
+		float: right;
+		width: 5%;
+		padding: 0;
+		cursor: pointer;
+		font-size: 100%;
+		line-height: 150%;
+		color: #b7410e;
+		text-shadow: 3px 3px 0px #000000;
+	}
+
+		.Drating-area:not(:checked) > label:before {
+			content: '★';
+		}
+
+	.Drating-area > input:checked ~ label {
+		color: #FF0000;
+		text-shadow: 3px 3px 0px #000000;
+	}
+
+	.Drating-area:not(:checked) > label:hover,
+	.Drating-area:not(:checked) > label:hover ~ label {
+		color: #FF0000;
+	}
+
+	.Drating-area > input:checked + label:hover,
+	.Drating-area > input:checked + label:hover ~ label,
+	.Drating-area > input:checked ~ label:hover,
+	.rating-area > input:checked ~ label:hover ~ label,
+	.Drating-area > label:hover ~ input:checked ~ label {
+		color: #FF0000;
+		text-shadow: 3px 3px 0px #000000;
+	}
+
+.Drate-area > label:active {
+	position: relative;
+}
+
+
+
+
+
 
 
 
