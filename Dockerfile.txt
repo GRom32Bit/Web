@@ -1,4 +1,0 @@
-FROM nginx:alpine
-OPY . /usr/share/nginx/html/
-WORKDIR /app
-EXPOSE 8888
